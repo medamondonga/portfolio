@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.cv{
+    display: flex;
+    width: 66%;
+    height: 800px;
+    justify-content: space-between;
+    position: relative;
+    left: 200px;
+    top: 75px;
+    background-color: rgb(13, 52, 13);
+}
+hr{
+    width: 300px;
+    position: relative;
+    left: 34px;
+    
+}
+.photo-name{
+    width: 40%;
+}
+
+.photo img{
+    width: 108%;
+    position: relative;
+    left: 8px;
+
+}
+.about-and-other{
+    padding: 20px 55px;
+    width: 50%;
+}
+.toggle img{
+    width: 50px;
+}
+.about-and-other{
+    width: 65%;
+    height: 200px;
+}
+.title h2{
+    font-size: 50px;
+}
+.age{
+    font-size: 13px;
+    padding-top: -100px;
+}
+.description{
+    font-size: 16px;
+    margin: 25px 0;
+}
+.skills-title{
+    margin-top: 20px;
+}
+.my-skills{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.skill{
+    padding: 5px 10px;
+}
+.skill-img{
+    width: 150px;
+    height: 100px;
+    padding: 15px 0;
+}
+.info{
+    width: 5%;
+}
+.contact-image img{
+    width: 25px;
+    position: relative;
+    left: 8px;
+    padding: 9px 2px;
+}
+.contact{
+    margin-top: 250px;
+}
