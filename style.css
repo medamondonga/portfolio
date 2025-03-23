@@ -7,14 +7,18 @@ body{
     background-color: black;
     color: white;
 }
+h1, h2{
+    font-family: sans-serif;
+}
 .cv{
     display: flex;
     width: 66%;
-    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom: auto;
     justify-content: space-between;
     position: relative;
-    left: 200px;
-    top: 75px;
     background-color: rgb(13, 52, 13);
 }
 hr{
@@ -42,7 +46,6 @@ hr{
 }
 .about-and-other{
     width: 65%;
-    height: 200px;
 }
 .title h2{
     font-size: 50px;
@@ -82,4 +85,9 @@ hr{
 }
 .contact{
     margin-top: 250px;
+}
+.name{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
